@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{16410098-5F1F-48DA-AD22-F70C7E88A9ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{31D88511-2E9E-471D-B887-B48651C30195}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NhlStatsDtos", "src\NhlStatsDtos\NhlStatsDtos.xproj", "{B7A30745-A2D3-4745-916D-564F2A46506E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7A30745-A2D3-4745-916D-564F2A46506E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A30745-A2D3-4745-916D-564F2A46506E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A30745-A2D3-4745-916D-564F2A46506E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A30745-A2D3-4745-916D-564F2A46506E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7A30745-A2D3-4745-916D-564F2A46506E} = {16410098-5F1F-48DA-AD22-F70C7E88A9ED}
+	EndGlobalSection
+EndGlobal
